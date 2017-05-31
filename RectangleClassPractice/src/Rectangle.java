@@ -20,8 +20,9 @@ public class Rectangle {
 		this.width = width; 
 	}
 	
-	// Prints the fields of the Object
-	private static void printRect(Rectangle box){
+	// Prints the fields of the Object: It was changed from private to public after moving
+	// the main method to a different class
+	public static void printRect(Rectangle box){
 		System.out.printf("x coordinate is: %d\ny coordinate is: %d\nHeight is: %d\nWidth is: %d\n\n", box.x, box.y, box.height, box.width);
 	}
 	
