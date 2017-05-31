@@ -1,0 +1,15 @@
+// Atif Mahmud 
+// 31st May 2017
+// Trying out the Rectangle class from the Big Java Book
+
+import java.util.*;
+import java.lang.Object;
+import java.awt.geom.Rectangle2D;
+
+public class Rectangle {
+	
+	public static void main(String [] args){
+		Rectangle box = new Rectangle(5,5,10,10);
+	}
+
+}
