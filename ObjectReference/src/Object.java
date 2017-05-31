@@ -30,7 +30,10 @@ public class Object {
 		// Instantiating the objects here allow me to call the static method on them: *static reference to non-static....*
 		Object object = new Object("Object One", 5, 7);
 		Object SecondObject = object;
-		SecondObject.name = "Changed the name, HAHAH!";
+		
+		SecondObject.name = "Changed the name, HAHAH!"; // To see effect of object reference
+		object.staticField+=10;  // To demonstrate static property
+		
 		printObject(object);
 		printObject(SecondObject);
 		
