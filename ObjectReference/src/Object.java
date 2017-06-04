@@ -6,6 +6,8 @@
  *  This program is used to demonstrate the purpose of the keyword static, and examine
  *  object references and variable values
  *
+ *  Making a new upload to get rid of commit message from an accidental "git add -a"
+ * 
  */
 
 
