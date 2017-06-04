@@ -1,0 +1,6 @@
+
+public class Sparrow extends Bird {
+	public static void sayHello(){
+		System.out.println("Hi! I am a sparrow!");
+	}
+}

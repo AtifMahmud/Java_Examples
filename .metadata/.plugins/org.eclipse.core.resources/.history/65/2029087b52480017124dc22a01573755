@@ -1,0 +1,12 @@
+/**
+ * Simple program to understand the concept of inheritance
+ * 
+ * @author Atif Mahmud
+ * Date: 3rd June, 2017
+ */
+
+public class Main {
+	public static void main(String[] args){
+		Sparrow.sayHello();
+	}
+}
