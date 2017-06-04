@@ -7,30 +7,31 @@
 
 public class Main {
 	public static void main(String[] args){
-		Bird.sayHello();
-		Sparrow.sayHello();
+		//Bird.sayHello();
+		//Sparrow.sayHello();
 		//Bird.privateMethod(); NOT VISIBLE
 		//System.out.println(Bird.privateField); NOT VISIBLE
-		Sparrow.wingFlap();
+		//Sparrow.wingFlap();
 		
 		Bird MyBird = new Bird();
 		Bird MyChidiya = new Sparrow();
-		polymorphicArgMethod(MyBird);
-		polymorphicArgMethod(MyChidiya);
+		NewClass.polymorphicArgMethod(MyBird);
+		NewClass.polymorphicArgMethod(MyChidiya);
 		
+		System.out.print("\n\n\n");
 		
 		Bird BirdArray[] = new Bird [4];
 		BirdArray[0] = new Sparrow();
+		BirdArray[1] = new Bird();
+		BirdArray[2] = new Sparrow();
+		BirdArray[3] = new Bird();
 		
-		System.out.println("\nHope to see a sparrow!");
-		BirdArray[0].sayHello();
-	
+		for (Bird b : BirdArray){
+			b.sayHello();
+		}
+		
 	}
 	
 	
-	// Demonstrate polymorphic argument
-	public static void polymorphicArgMethod(Bird bird){
-		bird.sayHello();
-	}
-			
+	
 }
