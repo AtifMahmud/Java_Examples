@@ -8,6 +8,8 @@ public class GUI extends JFrame{
 	
 	public GUI(){
 		
+		
+		
 		//This is for the window
 		super("This is the title of my window");
 		setLayout(new FlowLayout());
@@ -15,6 +17,8 @@ public class GUI extends JFrame{
 		//This is for the text
 		myLabel = new JLabel("This is the text"); // a label is essentially text
 		myLabel.setToolTipText("This will display on hover"); // this will display on hover
+		
+		System.out.println("Foobar");
 		
 		//Add the label to window
 		add(myLabel);
