@@ -8,7 +8,7 @@ public class Main {
 	public static void main (String [] args){
 		
 		GUI MyGUI = new GUI(); // instantiate
-		MyGUI.setSize(275, 180); // set dimensions
+		MyGUI.setSize(500, 500); // set dimensions
 		MyGUI.setVisible(true); // set visibility
 	}
 }

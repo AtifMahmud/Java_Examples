@@ -7,6 +7,7 @@
  *  object references and variable values
  *
  *  Making a new upload to get rid of commit message from an accidental "git add -a"
+ *  Need to "git add -a" this too
  * 
  */
 
