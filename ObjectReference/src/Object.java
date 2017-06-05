@@ -30,6 +30,8 @@ public class Object {
 	
 	public static void main (String [] args){
 		
+		System.out.println("foobar");
+		
 		// Instantiating the objects here allow me to call the static method on them: *static reference to non-static....*
 		Object object = new Object("Object One", 5, 7);
 		Object SecondObject = object;
