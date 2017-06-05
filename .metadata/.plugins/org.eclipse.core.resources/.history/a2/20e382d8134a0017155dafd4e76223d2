@@ -8,11 +8,6 @@ public class Bird {
 	public String sound = "tweet";
 	private String privateField = "You can't see me";  // this is private, so we'll see if it is inherited
 
-	public static void fakeMethod(){
-		// This is just added to trick git to allow me to push
-		System.out.println("Foobar");
-	}
-	
 	public static void sayHello(){
 		System.out.println("Hi! I am a bird");
 	}

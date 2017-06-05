@@ -13,8 +13,6 @@ public class Main {
 		//System.out.println(Bird.privateField); NOT VISIBLE
 		//Sparrow.wingFlap();
 		
-		Bird.fakeMethod();
-		
 		Bird MyBird = new Bird();
 		Bird MyChidiya = new Sparrow();
 		NewClass.polymorphicArgMethod(MyBird);

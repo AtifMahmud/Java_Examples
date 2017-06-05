@@ -10,7 +10,6 @@ public class Bird {
 
 	public static void fakeMethod(){
 		// This is just added to trick git to allow me to push
-		System.out.println("Foobar");
 	}
 	
 	public static void sayHello(){
