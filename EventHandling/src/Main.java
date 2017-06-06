@@ -64,15 +64,15 @@ public class Main extends JFrame {
 				String string = "";
 				
 				if (event.getSource()==textOne){
-					string = string.format("Field1: %s", event.getActionCommand());
+					string = string.format("FieldOne: %s", event.getActionCommand());
 				}
 				
 				else if(event.getSource()==textTwo){
-					string=string.format("Field2: %s", event.getActionCommand());
+					string=string.format("FieldTwo: %s", event.getActionCommand());
 				}
 				
 				else if(event.getSource()==textTwo){
-					string=string.format("Field3: %s", event.getActionCommand());
+					string=string.format("FieldThree: %s", event.getActionCommand());
 				}
 				
 				else if(event.getSource()==password){

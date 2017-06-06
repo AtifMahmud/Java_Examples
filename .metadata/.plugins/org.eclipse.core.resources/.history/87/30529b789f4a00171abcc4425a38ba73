@@ -1,0 +1,15 @@
+import javax.swing.JFrame;
+
+
+public class ActualMain {
+	
+	public static void main(String[] args){
+		Main MyGUI = new Main();
+		
+		MyGUI.setSize(300,300);
+		MyGUI.setVisible(true);
+		MyGUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // the import was made for this
+		
+	}
+
+}
