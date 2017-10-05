@@ -13,7 +13,7 @@ public class Bird {
 		System.out.println("Foobar");
 	}
 	
-	public static void sayHello(){
+	public  void sayHello(){
 		System.out.println("Hi! I am a bird");
 	}
 	

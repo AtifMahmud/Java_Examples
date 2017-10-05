@@ -7,16 +7,19 @@
 
 public class Main {
 	public static void main(String[] args){
-		//Bird.sayHello();
-		//Sparrow.sayHello();
+		
 		//Bird.privateMethod(); NOT VISIBLE
 		//System.out.println(Bird.privateField); NOT VISIBLE
 		//Sparrow.wingFlap();
-		
-		Bird.fakeMethod();
+		//Bird.fakeMethod();
 		
 		Bird MyBird = new Bird();
 		Bird MyChidiya = new Sparrow();
+		MyBird.sayHello();
+		MyChidiya.sayHello();
+		
+		
+		
 		NewClass.polymorphicArgMethod(MyBird);
 		NewClass.polymorphicArgMethod(MyChidiya);
 		
