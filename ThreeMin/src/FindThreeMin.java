@@ -1,8 +1,10 @@
 public class FindThreeMin {
 
     public static void main(String [] args){
-        int [] arr1 = {2,1,3,1000};
+        int [] arr1 = {1,1,1};
+        int [] arr2 = {10000,2,4,5,2,1,0};
         threemin(arr1);
+        threemin(arr2);
     }
 
     private static void threemin(int [] arr){
@@ -17,13 +19,13 @@ public class FindThreeMin {
         }
 
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < min2 && arr[i] > min1) {
+            if (arr[i] < min2 && arr[i] >= min1) {
                 min2 = arr[i];
             }
         }
 
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < min3 && arr[i] > min2) {
+            if (arr[i] < min3 && arr[i] >= min2) {
                 min3 = arr[i];
             }
         }
