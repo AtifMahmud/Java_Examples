@@ -1,4 +1,9 @@
+/**
+ * Example of recursion as shown in Lecture by Geoffrey Tien
+ */
 
+
+/* Apparently very inefficient */
 public class Fibonacci {
 
 	// PRE: n >= 0

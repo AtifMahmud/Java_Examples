@@ -1,3 +1,9 @@
+/**
+ * The first sorting algorithm that comes to mind
+ * Easy to code
+ *
+ * A simpler version of bubble sort
+ */
 
 public class AtifSort {
 	

@@ -20,11 +20,13 @@ public class Main {
 		
 		
 		
-		NewClass.polymorphicArgMethod(MyBird);
-		NewClass.polymorphicArgMethod(MyChidiya);
+		//NewClass.polymorphicArgMethod(MyBird);
+		//NewClass.polymorphicArgMethod(MyChidiya);
 		
 		System.out.print("\n\n\n");
 		
+		
+		// Iterator used too
 		Bird BirdArray[] = new Bird [4];
 		BirdArray[0] = new Sparrow();
 		BirdArray[1] = new Bird();
